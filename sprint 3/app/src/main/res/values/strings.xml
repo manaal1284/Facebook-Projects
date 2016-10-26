@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Facebook Service</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">home</string>
+    <string name="title_activity_tab">tab</string>
+    <string name="title_activity_tabprofile">tabprofile</string>
+</resources>

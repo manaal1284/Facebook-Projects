@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.facebook.profile">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1"
+        android:id="@+id/linearLayout">
+
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton7"
+            android:src="@drawable/msg"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left|bottom" />
+
+        <TextView
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:text="Add Photos"
+
+            android:id="@+id/textView3"
+            android:layout_gravity="left" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+
+            android:id="@+id/imageButton8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check In"
+            android:id="@+id/textView5" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/msg"
+            android:id="@+id/imageButton9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More"
+            android:id="@+id/textView6" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1"
+        android:paddingRight="10dp"
+        android:layout_below="@+id/linearLayout"
+        android:id="@+id/e1">
+
+        <ImageButton
+            android:layout_width="56dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="5dp"
+
+            android:id="@+id/imageButton10" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:layout_weight="1"
+            android:hint="what&apos;s on your mind?" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post"
+            android:id="@+id/button3"
+            android:background="#3635ff"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/e1">
+
+
+        <ImageButton
+            android:layout_width="56dp"
+            android:layout_height="47dp"
+            android:id="@+id/imageButton11"
+
+            android:layout_gravity="left|top" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abc"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/textView7"
+            android:layout_gravity="left|top" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 hour"
+            android:id="@+id/textView8"
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="55dp"
+            android:layout_gravity="left|top" />
+
+        <ImageView
+            android:layout_width="310dp"
+            android:layout_height="255dp"
+            android:id="@+id/imageView"
+
+            android:layout_gravity="center_horizontal|bottom" />
+
+
+
+
+    </FrameLayout>
+
+
+</RelativeLayout>

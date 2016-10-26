@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#84a4c6ff"
+        android:id="@+id/r1">
+
+
+        <EditText
+            android:layout_width="366dp"
+            android:layout_height="45dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="130dp"
+            android:id="@+id/editText2"
+            android:layout_gravity="center_horizontal|top"
+            android:hint=" Password"
+            android:background="#ffffff" />
+
+        <Button
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:id="@+id/button"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:background="#1c1c63"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:text="create new account"
+            android:id="@+id/button2"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:background="#35adff"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="forgotten Password"
+            android:id="@+id/textView"
+            android:layout_marginTop="95dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_width="417dp"
+            android:layout_height="143dp"
+            android:id="@+id/imageView"
+            android:layout_marginTop="105dp"
+            android:src="@drawable/bottom"
+             />
+
+        <EditText
+            android:layout_width="367dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="80dp"
+            android:id="@+id/editText"
+            android:hint="  Email address or Phone number"
+            android:background="#ffffff"
+            android:layout_gravity="center_horizontal|top" />
+
+
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.facebook.ActionBar">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#293dff">
+
+        <ImageButton
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton"
+
+            android:background="@drawable/news" />
+
+        <ImageButton
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton2"
+            android:layout_marginLeft="65dp"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/rqst" />
+
+        <ImageButton
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton3"
+            android:layout_marginLeft="130dp"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/msg" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton6"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/glob" />
+
+        <ImageButton
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton12"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/find" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton4"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/menu" />
+
+    </FrameLayout>
+
+</RelativeLayout>
